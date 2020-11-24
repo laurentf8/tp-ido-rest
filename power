@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+curl --silent http://10.202.255.252/meter/0 |jq .power
+
+

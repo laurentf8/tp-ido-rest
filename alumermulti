@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ip4 = 252
+
+curl http://10.202.255.$ip4/relay/0?turn=on
+
+ip4 = 253
+
+curl http://10.202.255.$ip4/relay/0?turn=on
+
+
+
+
