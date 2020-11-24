@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "on=alumer off=etein"
+
+read etat
+ 
+if [ $etat = on ]
+ then
+	curl -I http://10.202.255.252/relay/0?turn=on
+
+	
+fi
+
+if [ $etat = off ]
+ then
+
+
+	curl http://10.202.255.252/relay/0?turn=off
+fi
+
