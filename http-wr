@@ -1,0 +1,38 @@
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.004068627    10.202.18.1           10.202.255.252        HTTP     409    GET /status HTTP/1.1 
+
+Frame 4: 409 bytes on wire (3272 bits), 409 bytes captured (3272 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47640, Dst Port: 80, Seq: 1, Ack: 1, Len: 355
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.077278769    10.202.255.252        10.202.18.1           HTTP     505    HTTP/1.1 200 OK  (application/json)
+
+Frame 7: 505 bytes on wire (4040 bits), 505 bytes captured (4040 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47640, Seq: 537, Ack: 356, Len: 451
+[2 Reassembled TCP Segments (987 bytes): #5(536), #7(451)]
+Hypertext Transfer Protocol
+JavaScript Object Notation: application/json
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.629504116    10.202.18.1           10.202.255.252        HTTP     139    GET /meter/0 HTTP/1.1 
+
+Frame 16: 139 bytes on wire (1112 bits), 139 bytes captured (1112 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47642, Dst Port: 80, Seq: 1, Ack: 1, Len: 85
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.647602897    10.202.255.252        10.202.18.1           HTTP     288    HTTP/1.1 200 OK  (application/json)
+
+Frame 17: 288 bytes on wire (2304 bits), 288 bytes captured (2304 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47642, Seq: 1, Ack: 86, Len: 234
+Hypertext Transfer Protocol
+JavaScript Object Notation: application/json

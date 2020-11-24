@@ -1,0 +1,99 @@
+No.     Time           Source                Destination           Protocol Length Info
+      5 2.308715817    10.202.18.1           10.202.255.252        TCP      74     47486 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=2607171346 TSecr=0 WS=1024
+
+Frame 5: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 2.311660224    10.202.255.252        10.202.18.1           TCP      62     80 → 47486 [SYN, ACK] Seq=0 Ack=1 Win=2144 Len=0 MSS=536 SACK_PERM=1
+
+Frame 6: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47486, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 2.311695049    10.202.18.1           10.202.255.252        TCP      54     47486 → 80 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+
+Frame 7: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 2.311801070    10.202.18.1           10.202.255.252        HTTP     409    GET /status HTTP/1.1 
+
+Frame 8: 409 bytes on wire (3272 bits), 409 bytes captured (3272 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 1, Ack: 1, Len: 355
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 2.366000300    10.202.255.252        10.202.18.1           TCP      590    80 → 47486 [PSH, ACK] Seq=1 Ack=356 Win=1789 Len=536 [TCP segment of a reassembled PDU]
+
+Frame 9: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47486, Seq: 1, Ack: 356, Len: 536
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 2.366053574    10.202.18.1           10.202.255.252        TCP      54     47486 → 80 [ACK] Seq=356 Ack=537 Win=63784 Len=0
+
+Frame 10: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 356, Ack: 537, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 2.372769691    10.202.255.252        10.202.18.1           HTTP     505    HTTP/1.1 200 OK  (application/json)
+
+Frame 11: 505 bytes on wire (4040 bits), 505 bytes captured (4040 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47486, Seq: 537, Ack: 356, Len: 451
+[2 Reassembled TCP Segments (987 bytes): #9(536), #11(451)]
+Hypertext Transfer Protocol
+JavaScript Object Notation: application/json
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 2.372794415    10.202.18.1           10.202.255.252        TCP      54     47486 → 80 [ACK] Seq=356 Ack=988 Win=63784 Len=0
+
+Frame 12: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 356, Ack: 988, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.372967327    10.202.18.1           10.202.255.252        TCP      54     47486 → 80 [FIN, ACK] Seq=356 Ack=988 Win=63784 Len=0
+
+Frame 13: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 356, Ack: 988, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 2.377125786    10.202.255.252        10.202.18.1           TCP      60     80 → 47486 [ACK] Seq=988 Ack=357 Win=1788 Len=0
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47486, Seq: 988, Ack: 357, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 2.377717126    10.202.255.252        10.202.18.1           TCP      60     80 → 47486 [FIN, ACK] Seq=988 Ack=357 Win=1788 Len=0
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Espressi_6a:64:db (ec:fa:bc:6a:64:db), Dst: Dell_96:42:41 (d4:be:d9:96:42:41)
+Internet Protocol Version 4, Src: 10.202.255.252, Dst: 10.202.18.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 47486, Seq: 988, Ack: 357, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 2.377751188    10.202.18.1           10.202.255.252        TCP      54     47486 → 80 [ACK] Seq=357 Ack=989 Win=63784 Len=0
+
+Frame 16: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Dell_96:42:41 (d4:be:d9:96:42:41), Dst: Espressi_6a:64:db (ec:fa:bc:6a:64:db)
+Internet Protocol Version 4, Src: 10.202.18.1, Dst: 10.202.255.252
+Transmission Control Protocol, Src Port: 47486, Dst Port: 80, Seq: 357, Ack: 989, Len: 0
