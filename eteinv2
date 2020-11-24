@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mosquitto_pub -h 10.202.0.65 -t shellies/shellyplug-s-6A64DB/relay/0command -m "off"
+
